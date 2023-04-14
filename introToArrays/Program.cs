@@ -12,11 +12,12 @@
             Console.WriteLine(cars[2]);
             Console.WriteLine(cars[1]);
 
+
             int[] FavNumbers = new int[5];
             FavNumbers[0] = 24;
             FavNumbers[1] = 44;
             Console.WriteLine("FavNumber 0 : {0}", FavNumbers[0]);
-
+                  
             string[] customers = { "Soso", "Ryan", "Pual", "Sapho" };
 
 
