@@ -8,6 +8,7 @@ namespace introToLists
     {
         static void Main(string[] args)
         {
+            //creating a list and andding customers to it
             List<string> customers = new List<string>();
             customers.Add("Soso");
             customers.Add("Yaya");
@@ -15,7 +16,7 @@ namespace introToLists
             customers.Add("Mogan");
             customers.Add("Beeno");
 
-            
+
             Console.WriteLine(customers[0]);
             Console.WriteLine(customers.Count);
 
@@ -39,7 +40,7 @@ namespace introToLists
             }
 
             //comparing values of two links
-            List<int> numbers1 =  new List<int>() {10, 23, 53, 53, 13, 45, 64, 75, 72, 65, 643};
+            List<int> numbers1 = new List<int>() { 10, 23, 53, 53, 13, 45, 64, 75, 72, 65, 643 };
             List<int> numbers2 = new List<int>() { 10, 23, 53, 53, 13, 45, 64, 75, 72, 65, 643 };
             if (numbers1.SequenceEqual(numbers2))
             {
@@ -57,8 +58,41 @@ namespace introToLists
             {
                 Console.WriteLine(number);
             }
-                
-        }
 
+
+            Console.WriteLine("-----------------");
+
+            //multidimensional List 
+            List<List<int>> studentGrades = new List<List<int>>()
+            {
+                new List<int>{ 5, 4, 543, 3453 },
+                new List<int> { 1, 3, 644, 735},
+                new List<int> { 522, 656, 643, 889 } };
+
+           int[] standard = studentGrades[3].ToArray(); //conerting a list to an Array
+
+            foreach (List<int> grades in studentGrades)
+            {
+                foreach (int grade in grades)
+                {
+                    Console.Write(grade + "\t");
+                }
+                Console.WriteLine();
+            }
+
+            //Converting an Array to a List 
+            int[][] busTickets = 
+                {
+                new int[]{ 5, 4, 543, 3453 }, 
+                new int[]{ 1, 3, 644, 735}, 
+                new int[]{ 522, 656, 643, 889 } };
+
+            List<int> ticketNumber = busTickets[2].ToList();// here is the concersion
+        }
+               
     }
+
 }
+
+
+
