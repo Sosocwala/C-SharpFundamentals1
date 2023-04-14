@@ -14,12 +14,15 @@ namespace introToLists
             customers.Add("Yaya");
             customers.Add("Ryan");
             customers.Add("Mogan");
+            customers.Add("Sindy");
             customers.Add("Beeno");
+
 
 
             Console.WriteLine(customers[0]);
             Console.WriteLine(customers.Count);
 
+            customers.Remove("Beeno");
             customers.Remove("Soso");
             customers.Insert(3, "Bravo");
             customers.IndexOf("Mogan");
