@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.33516.290
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C-SharpFundamentals1", "C-SharpFundamentals1\C-SharpFundamentals1.csproj", "{0F7624B1-4F11-4005-A839-07B45319F993}"
 EndProject
@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithStrings", "WorkingWithStrings\WorkingWithStrings.csproj", "{FF9AA22D-02F3-438F-AF6C-34B30A04E33A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decisions", "Decisions\Decisions.csproj", "{CDB52E2E-1DE7-4CFE-8566-3694F1FE17EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decisions", "Decisions\Decisions.csproj", "{CDB52E2E-1DE7-4CFE-8566-3694F1FE17EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToLists", "introToLists\introToLists.csproj", "{60FE931F-9DEC-414D-8E9A-C9E2EEBE24E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{CDB52E2E-1DE7-4CFE-8566-3694F1FE17EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDB52E2E-1DE7-4CFE-8566-3694F1FE17EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDB52E2E-1DE7-4CFE-8566-3694F1FE17EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FE931F-9DEC-414D-8E9A-C9E2EEBE24E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FE931F-9DEC-414D-8E9A-C9E2EEBE24E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FE931F-9DEC-414D-8E9A-C9E2EEBE24E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FE931F-9DEC-414D-8E9A-C9E2EEBE24E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

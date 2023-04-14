@@ -39,6 +39,22 @@
             myString10.LastIndexOf("dinner");
             myString10.LastIndexOfAny(new char[] { 'm' });
 
+            //Working with Substrings
+            string y = myString10.Substring(3, 3);
+            string y = myString10.Substring(8, 4);
+            string y = myString10.Substring(2);
+            sftring y = myString10.Substring(3, myString10.length - 5);
+            try
+            {
+                y = myString10.Substring(-1);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+
+            Console.WriteLine(y);
+
             //using Char and strings
             char[] y = new char[4];
             y[0] = myString10[8];
@@ -55,13 +71,25 @@
             myString10 = String.Format("Length before: {0} -- Lenght after: {1}",
                 myString10.Length,
                 myString10.Trim().Length);
+            Console.WriteLine("--------------------");
 
+            //converting string to an Numbers 
+            string x = "20";
+            string y = "10";
+
+            int x1 = int.Parse(x);//conversion
+            int y2 = int.Paese(y);//conversion
+
+            string z = x + y;
+            onsole.WriteLine(x + " + " + y + " = " + z);
             //Working with strings on a more effecient manner or use the StringBuilder for this 
             string myString11 = "";
-            for (int i = 0; i < 100; i++ )
+            for (int i = 0; i < 100; i++)
             {
                 myString11 += "--" + i.ToString();
             }
+
+            
 
             Console.WriteLine(myString);
             Console.WriteLine(myString2);
