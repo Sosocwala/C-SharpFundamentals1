@@ -13,8 +13,14 @@ namespace introToLinkedList
             myLinkedList.AddFirst("Sobs");
             myLinkedList.AddLast("Zura");
             myLinkedList.AddFirst("Bongs");
-            
-            
+
+            // Iterating through the Linked list
+            foreach (string name in myLinkedList)
+            {
+                Console.WriteLine(name);
+
+            }
+
 
 
 
