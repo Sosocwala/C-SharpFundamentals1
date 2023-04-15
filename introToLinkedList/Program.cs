@@ -21,7 +21,12 @@ namespace introToLinkedList
 
             }
 
+            Console.WriteLine("--------------");
+            //Searching for Nodes 
+            LinkedListNode<string> myNode = myLinkedList.Find("Nomah");
+            myLinkedList.AddBefore(myNode, "Migo");
 
+            
 
 
 
