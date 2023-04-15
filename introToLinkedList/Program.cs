@@ -26,6 +26,10 @@ namespace introToLinkedList
             LinkedListNode<string> myNode = myLinkedList.Find("Nomah");
             myLinkedList.AddBefore(myNode, "Migo");
 
+            //Removing Values in the linked list
+            myLinkedList.Remove("Sobs");
+            myLinkedList.RemoveLast();
+
             
 
 
