@@ -10,17 +10,18 @@ namespace introToQueues
             //Creating a Queue and manipulating it
             Queue<int> myQueue = new Queue<int>();
             myQueue.Enqueue(50);
-            myQueue.Enqueue(30); 
+            myQueue.Enqueue(30);
             myQueue.Enqueue(222);
             myQueue.Enqueue(40);
             myQueue.Enqueue(99);
-            
+
             //Cheking the values in the Queue
             foreach (int i in myQueue)
             {
                 Console.WriteLine(i);
             }
 
+            Console.WriteLine("---------");
             //Coping a queue int an Array
             int[] myArray = new int[myQueue.Count];
             myQueue.CopyTo(myArray, 0); //copy queue to array
@@ -28,6 +29,26 @@ namespace introToQueues
             {
                 Console.WriteLine(k);
             }
+
+            Console.WriteLine("---------");
+            //deletinmg an item in the queue and its FIFO
+            myQueue.Dequeue();
+            foreach (int i in myQueue)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine("---------");
+            //Seaching for a value in a queue
+            if (myQueue.Contains(99))
+            {
+                Console.WriteLine("Found");
+            }
+            else
+            {
+                Console.WriteLine("Not Found");
+            }
+
         }
     }
 }
