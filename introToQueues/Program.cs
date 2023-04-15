@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace introToQueues
 {
@@ -6,24 +7,27 @@ namespace introToQueues
     {
         static void Main(string[] args)
         {
-            string[,] Customer = new string[3, 2] 
-            { 
-                { "Soso", "Megan" }, 
-                {"Mlalo", "Sali" }, 
-                {"jhon", "mandy" } };
-
-            Console.WriteLine(Customer[1, 0] + " " + Customer[1, 1]);
-
-            for (int i = 0; i < Customer.GetLength(0); i++)
+            //Creating a Queue and manipulating it
+            Queue<int> myQueue = new Queue<int>();
+            myQueue.Enqueue(50);
+            myQueue.Enqueue(30); 
+            myQueue.Enqueue(222);
+            myQueue.Enqueue(40);
+            myQueue.Enqueue(99);
+            
+            //Cheking the values in the Queue
+            foreach (int i in myQueue)
             {
-                int k = 0;
-                Console.Write("{0} {1}", Customer[i, k], Customer[i, k + 1]);
-                k++;
-                Console.WriteLine();
+                Console.WriteLine(i);
             }
 
-
-
+            //Coping a queue int an Array
+            int[] myArray = new int[myQueue.Count];
+            myQueue.CopyTo(myArray, 0); //copy queue to array
+            foreach (int k in myArray)
+            {
+                Console.WriteLine(k);
+            }
         }
     }
 }
