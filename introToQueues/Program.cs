@@ -33,6 +33,13 @@ namespace introToQueues
             Console.WriteLine("---------");
             //deletinmg an item in the queue and its FIFO
             myQueue.Dequeue();
+            Console.WriteLine("Remove : {0}", 
+                myQueue.Dequeue());//another way of deleting
+            Console.WriteLine("40 in the Queue : {0}", 
+                myQueue.Contains(40)); //checking if a value is present in a queue
+            Console.WriteLine("peek 1 : {0}", myQueue.Peek());
+
+
             foreach (int i in myQueue)
             {
                 Console.WriteLine(i);
@@ -49,6 +56,7 @@ namespace introToQueues
                 Console.WriteLine("Not Found");
             }
 
+            myQueue.Clear(); // Removing everything in the queue
         }
     }
 }
