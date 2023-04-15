@@ -29,10 +29,11 @@ namespace introToLinkedList
             //Removing Values in the linked list
             myLinkedList.Remove("Sobs");
             myLinkedList.RemoveLast();
+            foreach (string name in myLinkedList)
+            {
+                Console.WriteLine(name);
 
-            
-
-
+            }
 
         }
     }
