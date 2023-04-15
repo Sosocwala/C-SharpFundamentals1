@@ -16,7 +16,7 @@ namespace intoToSacks
             myStack.Push(70);
             myStack.Push(90);
 
-            //Cycling through the stack
+            // Iterates through the stack
             foreach (int i in myStack)
             {
                 Console.WriteLine(i);
