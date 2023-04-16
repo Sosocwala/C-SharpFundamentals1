@@ -7,7 +7,11 @@ namespace Exercise1
     {
         public class Apple
         {
-         
+          public double  Calc(double amount, double price)
+            {
+                return amount * price;
+            }
+             
         }
 
         static void Main(string[] args)
