@@ -79,12 +79,12 @@
 
             int x1 = int.Parse(x);//conversion
             int y2 = int.Paese(y);//conversion
-
+  
             string z = x + y;
             onsole.WriteLine(x + " + " + y + " = " + z);
             //Working with strings on a more effecient manner or use the StringBuilder for this 
             string myString11 = "";
-            for (int i = 0; i < 100; i++)
+            for ( int i = 0; i < 100; i++)
             {
                 myString11 += "--" + i.ToString();
             }
