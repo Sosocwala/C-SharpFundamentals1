@@ -7,13 +7,12 @@ namespace Exercise1
     {
         public class Apple
         {
-          
-             
+         
         }
 
         static void Main(string[] args)
         {
-          
+            
             
         }
 
