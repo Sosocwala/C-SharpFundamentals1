@@ -19,7 +19,7 @@ namespace Exercise1
             Apple cost = new Apple();
             double total = cost.Calc(12, 5);
             Console.WriteLine("The amount of 12 Apples : {0:C}", total);
-            
+            Console.WriteLine("Press Enter to Exit");
 
         }
 
