@@ -17,7 +17,8 @@ namespace Exercise1
         static void Main(string[] args)
         {
             Apple cost = new Apple();
-            
+            double total = cost.Calc(12, 5);
+           
 
         }
 
