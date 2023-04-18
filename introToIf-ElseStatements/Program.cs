@@ -34,7 +34,10 @@ namespace introToIf_ElseStatements
             else if (isGreater(a, b))
             {
                 Console.WriteLine("X is Greater then Y");
-            
+            }
+            else
+            {
+                Console.WriteLine("X is equal to Y");
             }
         }
         
