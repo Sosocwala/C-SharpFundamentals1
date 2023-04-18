@@ -6,7 +6,7 @@ namespace introToIf_ElseStatements
     {
         static void Main(string[] args)
         {
-            int x = 25;
+            int x = 26;
             int y = 25;
             if (x < y)
             {
@@ -29,9 +29,13 @@ namespace introToIf_ElseStatements
             int b = 12;
             if (isGreater(a, b))
             {
-
+                Console.WriteLine("X is Less then Y");
             }
-
+            
+            }
         }
+        
+
     }
 }
+
