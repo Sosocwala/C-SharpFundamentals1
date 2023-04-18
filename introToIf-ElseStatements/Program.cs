@@ -12,7 +12,11 @@ namespace introToIf_ElseStatements
             {
                 Console.WriteLine("X is Less then Y");
             }
-            
+            else if (x > y)
+            {
+                Console.WriteLine("X is greater then Y");
+            }
+           
         }
     }
 }
