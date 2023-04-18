@@ -44,7 +44,11 @@ namespace introToIf_ElseStatements
             int j = 20;
             if (i != j)
             {
-           
+                if (i < j)
+                {
+                    Console.WriteLine("X is Less then Y");
+                }
+               
             }
             else
             {
