@@ -40,7 +40,11 @@ namespace introToIf_ElseStatements
                 Console.WriteLine("X is equal to Y");
             }
         }
+        static bool isGreater(int a, int b)
+        {
+            return a < b;  
         
+        }
 
     }
 }
