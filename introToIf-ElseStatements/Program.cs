@@ -20,7 +20,6 @@ namespace introToIf_ElseStatements
             {
                 Console.WriteLine("X is equal to Y");
             }
-            Console.WriteLine("Press Enter to Exit");
 
 
             //calling function as a condition
@@ -29,7 +28,7 @@ namespace introToIf_ElseStatements
             int b = 12;
             if (isGreater(a, b))
             {
-                Console.WriteLine("X is Less then Y");
+                Console.WriteLine();
             }
             else if (isGreater(a, b))
             {
@@ -39,7 +38,19 @@ namespace introToIf_ElseStatements
             {
                 Console.WriteLine("X is equal to Y");
             }
+
+            //Nested if else statements
+            int i = 10;
+            int j = 20;
+            if (i != j)
+            {
+           
+            }
+            else
+            
+
         }
+        //Functiong to be used as a condition
         static bool isGreater(int a, int b)
         {
             return a < b;  
