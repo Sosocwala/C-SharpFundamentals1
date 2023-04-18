@@ -57,6 +57,22 @@ namespace introToIf_ElseStatements
             {
                 Console.WriteLine("X is equal to Y");
             }
+
+            //Conditional Operators
+            int n = 40;
+            int m = 32;
+           /* if (n > m && n == m)
+            {
+                Console.WriteLine("n is greater and m ");
+
+            }*/
+
+            if (n != m || n == m)
+            {
+                Console.WriteLine("N is greater mthen M or equal to ");
+            }
+
+            
             Console.WriteLine("Press Enter to Exit");
 
 
