@@ -21,6 +21,17 @@ namespace introToIf_ElseStatements
                 Console.WriteLine("X is equal to Y");
             }
             Console.WriteLine("Press Enter to Exit");
+
+
+            //calling function as a condition
+
+            int a = 10;
+            int b = 12;
+            if (isGreater(a, b))
+            {
+
+            }
+
         }
     }
 }
