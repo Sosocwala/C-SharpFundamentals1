@@ -47,7 +47,11 @@ namespace introToIf_ElseStatements
            
             }
             else
-            
+            {
+                Console.WriteLine("X is equal to Y");
+            }
+            Console.WriteLine("Press Enter to Exit");
+
 
         }
         //Functiong to be used as a condition
