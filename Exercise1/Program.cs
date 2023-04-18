@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic;  
 
 namespace Exercise1
 {
@@ -7,20 +7,24 @@ namespace Exercise1
     {
         public class Apple
         {
-          public double  Calc(double amount, double price)
+          public double Calc(double amount, double price)
             {
-                return amount * price;
+                return amount * price; 
             }
              
+            public double Calc(double amount)
+            {
+                double price = 4.5;
+                return amount * price;
+            }
         }
 
         static void Main(string[] args)
         {
             Apple cost = new Apple();
-            double total = cost.Calc(12, 5);
-            Console.WriteLine("The amount of 12 Apples : {0:C}", total);
+            double total = cost.Calc(12, 6);
+            Console.WriteLine("The price of 12 apples will be : {0:C}", total);
             Console.WriteLine("Press Enter to Exit");
-
         }
 
     }
