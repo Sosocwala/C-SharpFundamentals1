@@ -16,7 +16,11 @@ namespace introToIf_ElseStatements
             {
                 Console.WriteLine("X is greater then Y");
             }
-           
+            else
+            {
+                Console.WriteLine("X is equal to Y");
+            }
+            Console.WriteLine("Press Enter to Exit");
         }
     }
 }
