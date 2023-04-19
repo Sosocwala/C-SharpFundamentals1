@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace TryCatchFinallyStatements
 {
@@ -6,7 +7,20 @@ namespace TryCatchFinallyStatements
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            loadFile();
+        }
+        private static void loadFile()
+        {
+            StreamReader infile = null;
+            try
+            {
+                infile = File.OpenText("../../info.text");
+                Console.WriteLine(infile.ReadToEnd);
+            }
+            catch (FileNotFoundException notFound)
+            {
+                Console.WriteLine("Oops! {0}", notFound.Message);
+            }
         }
     }
 }
