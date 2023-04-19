@@ -25,6 +25,13 @@ namespace TryCatchFinallyStatements
             {
                 Console.WriteLine(ex.Message);
             }
+            finally
+            {
+                if (infile != null)
+                {
+                    infile.Close(); 
+                }
+            }
         }
     }
 }
