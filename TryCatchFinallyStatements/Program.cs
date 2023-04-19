@@ -21,6 +21,10 @@ namespace TryCatchFinallyStatements
             {
                 Console.WriteLine("Oops! {0}", notFound.Message);
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
