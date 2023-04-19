@@ -6,15 +6,21 @@ namespace introToSwitchStatements
     {
         static void Main(string[] args)
         {
-            checkCoulor("pink");
+            checkColor("pink");
         }
-        public static string checkCoulor(string choice)
+        public static string checkColor(string choice)
         {
-            string peakCoulor;
+            string peakColor;
             switch (choice)
             {
                 case "red":
-                    peakCoulor = "";
+                    peakColor = "Color red";
+                    break;
+                case "blue":
+                    peakColor = "blue";
+                    break;
+                Case
+
 
             }    
         }
