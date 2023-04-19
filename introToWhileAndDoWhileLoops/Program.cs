@@ -13,7 +13,14 @@ namespace introToWhileAndDoWhileLoops
                 i++;
             }
             //Here is a do while loop
-            
+            int k = 0;
+            do
+            {
+                Console.WriteLine(k);
+                k++;
+            }
+            while (k < 100);
+            Console.WriteLine("Press Enter to Exit");
         }
     }
 }
