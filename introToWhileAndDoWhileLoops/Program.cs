@@ -6,7 +6,14 @@ namespace introToWhileAndDoWhileLoops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int i = 0;
+            while (i < 100)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+            //Here is a do while loop
+            
         }
     }
 }
