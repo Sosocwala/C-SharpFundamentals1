@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToWhileAndDoWhileLoops
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToForAndForeachLoops", "introToForAndForeachLoops\introToForAndForeachLoops.csproj", "{58252C37-8766-4249-9940-142BCE3C7BE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchFinallyStatements", "TryCatchFinallyStatements\TryCatchFinallyStatements.csproj", "{AFD3D3F2-6460-44F1-8D1E-C748DAE612F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,10 @@ Global
 		{58252C37-8766-4249-9940-142BCE3C7BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58252C37-8766-4249-9940-142BCE3C7BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58252C37-8766-4249-9940-142BCE3C7BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD3D3F2-6460-44F1-8D1E-C748DAE612F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD3D3F2-6460-44F1-8D1E-C748DAE612F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD3D3F2-6460-44F1-8D1E-C748DAE612F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD3D3F2-6460-44F1-8D1E-C748DAE612F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
