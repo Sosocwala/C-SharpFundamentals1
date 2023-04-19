@@ -1,4 +1,4 @@
-﻿b  using System;
+﻿ using System;
 
 namespace introToSwitchStatements
 {
@@ -8,7 +8,7 @@ namespace introToSwitchStatements
         {
             checkColor("pink");
         }
-        public static string checkColor(string choice)
+        public static void checkColor(string choice)
         {
             string peakColor;
             switch (choice)
@@ -17,11 +17,17 @@ namespace introToSwitchStatements
                     peakColor = "Color red";
                     break;
                 case "blue":
-                    peakColor = "blue";
+                    peakColor = "Color blue";
                     break;
-                Case
-
-
+                case "pink":
+                    peakColor = "Color pink";
+                    break;
+                case "purple":
+                    peakColor = "Color purple";
+                    break;
+                default:
+                    Console.WriteLine("Sorry we dont have the colur you looking for");
+                    return;
             }    
         }
     }
