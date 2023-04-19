@@ -28,7 +28,8 @@ namespace introToSwitchStatements
                 default:
                     Console.WriteLine("Sorry we dont have the colur you looking for");
                     return;
-            }    
+            }
+            Console.WriteLine("{0}{1}", "We do have the ", peakColor);
         }
     }
 }
