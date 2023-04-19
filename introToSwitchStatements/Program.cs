@@ -6,13 +6,14 @@ namespace introToSwitchStatements
     {
         static void Main(string[] args)
         {
-            checkColor("pink");
+            checkColor("purple");
         }
         public static void checkColor(string choice)
         {
             string peakColor;
             switch (choice)
             {
+                /*
                 case "red":
                     peakColor = "Color red";
                     break;
@@ -27,9 +28,25 @@ namespace introToSwitchStatements
                     break;
                 default:
                     Console.WriteLine("Sorry we dont have the colur you looking for");
+                    return; */
+
+
+                //Another way of configering a switch statement
+                case "red":
+                case "pink":
+                case "blue":
+                case "orange":
+                case "purple":
+                    peakColor = "We do have the color you looking for";
+                    break;
+                default:
+                    Console.WriteLine("Sorry we dont have the color you looking for");
                     return;
+
+
             }
-            Console.WriteLine("{0}{1}", "We do have the ", peakColor);
+            Console.WriteLine(peakColor);
+            //Console.WriteLine("{0}{1}", "We do have the ", peakColor);
         }
     }
 }
