@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToExceptionHandling", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "captureUserInput", "captureUserInput\captureUserInput.csproj", "{10FA34DB-7203-4781-A7AB-551D8DCE3A15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToRandomization", "introToRandomization\introToRandomization.csproj", "{6D28E56F-232A-48EC-920E-1AC4658D9E7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,10 @@ Global
 		{10FA34DB-7203-4781-A7AB-551D8DCE3A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10FA34DB-7203-4781-A7AB-551D8DCE3A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10FA34DB-7203-4781-A7AB-551D8DCE3A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D28E56F-232A-48EC-920E-1AC4658D9E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D28E56F-232A-48EC-920E-1AC4658D9E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D28E56F-232A-48EC-920E-1AC4658D9E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D28E56F-232A-48EC-920E-1AC4658D9E7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
