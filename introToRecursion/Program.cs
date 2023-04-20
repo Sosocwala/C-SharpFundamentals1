@@ -6,20 +6,19 @@ namespace introToRecursion
     {
         static void Main(string[] args)
         {
-            int number = 0;
+            int numbers = 0;
             Console.WriteLine("Even Numbers : ");
-            evenNumbers(number);
+            evenNums(numbers);
             Console.WriteLine("Done!");
-            
+
         }
-        public static void evenNumbers(int i)
+        public static void evenNums(int i)
         {
-            if (i <= 1000)
+            if (i < 1000)
             {
                 Console.Write("{0} ", i);
                 i += 2;
-                evenNumbers(i);
-
+                evenNums(i);
             }
         }
     }
