@@ -16,6 +16,9 @@ namespace introToRecursion
         {
             if (i <= 1000)
             {
+                Console.Write("{0} ", i);
+                i += 2;
+                evenNumbers(i);
 
             }
         }
