@@ -15,8 +15,8 @@ namespace TryCatchFinallyStatements
             try
             {
                 infile = File.OpenText("../../info.text");
-                Console.WriteLine(infile.ReadToEnd);
-            }
+                Console.WriteLine(infile.ReadToEnd); 
+            }  
             catch (FileNotFoundException notFound)
             {
                 Console.WriteLine("Oops! {0}", notFound.Message);
