@@ -15,6 +15,10 @@ namespace captureUserInput
                 Console.Write("multyply by a 1000 :");
                 Console.WriteLine(num * 1000);
             }
+            else
+            {
+                Console.WriteLine("This is not an Integer");
+            }
 
         }
     }
