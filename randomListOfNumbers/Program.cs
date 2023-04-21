@@ -15,6 +15,10 @@ namespace randomListOfNumbers
             {
                 int randomNumbers = random.Next(1, 101);
                 addArray = true;
+                for (int l = 0; l < k; l++)
+                {
+
+                }
             }
 
            
