@@ -47,15 +47,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "introToForAndForeachLoops",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryCatchFinallyStatements", "TryCatchFinallyStatements\TryCatchFinallyStatements.csproj", "{AFD3D3F2-6460-44F1-8D1E-C748DAE612F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToRecursion", "introToRecursion\introToRecursion.csproj", "{1C09A874-E3B5-4DDF-87EC-A4201EFE9C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "introToRecursion", "introToRecursion\introToRecursion.csproj", "{1C09A874-E3B5-4DDF-87EC-A4201EFE9C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToExceptionHandling", "introToExceptionHandling\introToExceptionHandling.csproj", "{B57974F1-7DA3-432C-9CE5-49617F73BC47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "introToExceptionHandling", "introToExceptionHandling\introToExceptionHandling.csproj", "{B57974F1-7DA3-432C-9CE5-49617F73BC47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "captureUserInput", "captureUserInput\captureUserInput.csproj", "{10FA34DB-7203-4781-A7AB-551D8DCE3A15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "captureUserInput", "captureUserInput\captureUserInput.csproj", "{10FA34DB-7203-4781-A7AB-551D8DCE3A15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToRandomization", "introToRandomization\introToRandomization.csproj", "{6D28E56F-232A-48EC-920E-1AC4658D9E7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "introToRandomization", "introToRandomization\introToRandomization.csproj", "{6D28E56F-232A-48EC-920E-1AC4658D9E7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "randomListOfNumbers", "randomListOfNumbers\randomListOfNumbers.csproj", "{2AA5B0A9-3ABD-42E5-80A6-EA5CBDB4A281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "randomListOfNumbers", "randomListOfNumbers\randomListOfNumbers.csproj", "{2AA5B0A9-3ABD-42E5-80A6-EA5CBDB4A281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "theQuickSortAlgorithm", "theQuickSortAlgorithm\theQuickSortAlgorithm.csproj", "{7F5EF7BE-CE57-4382-97B3-C07FA9C0E086}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -167,6 +169,10 @@ Global
 		{2AA5B0A9-3ABD-42E5-80A6-EA5CBDB4A281}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA5B0A9-3ABD-42E5-80A6-EA5CBDB4A281}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AA5B0A9-3ABD-42E5-80A6-EA5CBDB4A281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5EF7BE-CE57-4382-97B3-C07FA9C0E086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5EF7BE-CE57-4382-97B3-C07FA9C0E086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5EF7BE-CE57-4382-97B3-C07FA9C0E086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5EF7BE-CE57-4382-97B3-C07FA9C0E086}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
