@@ -11,6 +11,11 @@ namespace randomListOfNumbers
             Random random = new Random();
             bool addArray = true;
 
+            while (k < 100)
+            {
+
+            }
+
            
         }
     }
