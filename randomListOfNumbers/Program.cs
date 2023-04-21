@@ -26,7 +26,7 @@ namespace randomListOfNumbers
                 if (addArray == true)
                 {
                     randomNums[k] = randomNumbers;
-
+                    k++;
                 }
             }
 
