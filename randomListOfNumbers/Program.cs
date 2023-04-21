@@ -13,7 +13,8 @@ namespace randomListOfNumbers
 
             while (k < 100)
             {
-
+                int randomNumbers = random.Next(1, 101);
+                
             }
 
            
