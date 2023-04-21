@@ -13,6 +13,7 @@ namespace theQuickSortAlgorithm
 
             while (z < 100)
             {
+                int randomNums = random.Next(1, 101);
 
             }
         }
