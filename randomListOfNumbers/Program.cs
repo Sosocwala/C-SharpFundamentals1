@@ -17,7 +17,10 @@ namespace randomListOfNumbers
                 addArray = true;
                 for (int l = 0; l < k; l++)
                 {
+                    if (randomNums[l] == randomNumbers)
+                    {
 
+                    }
                 }
             }
 
