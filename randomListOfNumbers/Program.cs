@@ -19,7 +19,8 @@ namespace randomListOfNumbers
                 {
                     if (randomNums[l] == randomNumbers)
                     {
-
+                        addArray = false;
+                        break;
                     }
                 }
             }
