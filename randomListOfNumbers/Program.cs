@@ -27,10 +27,16 @@ namespace randomListOfNumbers
                 {
                     randomNums[k] = randomNumbers;
                     k++;
-                }
+                }     
             }
+            Console.WriteLine(Environment.NewLine + "Length : " + randomNums.Length + Environment.NewLine);
+            foreach (int i in randomNums)
+            {
+                Console.Write("{0} ", i);
+            }
+            Console.WriteLine(Environment.NewLine + Environment.NewLine);
 
-           
+
         }
     }
 }
