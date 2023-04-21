@@ -7,6 +7,8 @@ namespace randomListOfNumbers
         static void Main(string[] args)
         {
             int[] randomNums = new int[100];
+            byte k = 0;
+
            
         }
     }
