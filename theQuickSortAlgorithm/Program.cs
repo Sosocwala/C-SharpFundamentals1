@@ -24,6 +24,11 @@ namespace theQuickSortAlgorithm
                         break;
                     }
                 }
+                if (addToArray == true)
+                {
+                    Sorted[x] = randomNums;
+                    x++;
+                }
             }
         }
     }
