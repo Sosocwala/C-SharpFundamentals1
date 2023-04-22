@@ -15,10 +15,9 @@ namespace theQuickSortAlgorithm
             {
                 int randomNums = random.Next(1, 101);
                 addToArray = true;
-
-                for (int y = 0; y < x; y++)
+                for (int z = 0; z < x; z++)
                 {
-                    if (Sorted[y] == randomNums)
+                    if (Sorted[z] == randomNums)
                     {
                         addToArray = false;
                         break;
@@ -29,6 +28,7 @@ namespace theQuickSortAlgorithm
                     Sorted[x] = randomNums;
                     x++;
                 }
+
             }
             Console.WriteLine(Environment.NewLine + "Unsorted List : " + Environment.NewLine);
             foreach (int i in Sorted)
@@ -44,40 +44,35 @@ namespace theQuickSortAlgorithm
             {
                 Console.Write("{0} ", m);
             }
-            Console.WriteLine(Environment.NewLine + Environment.NewLine);
-
+            Console.WriteLine(Environment.NewLine + Environment.NewLine);       
         }
-        public static void quickSort(int[] sorted, int left, int right)
+        public static void quickSort(int[] Sorted, int left, int right)
         {
-            int r = left;
-            int l = right;
-            int pivot = sorted[(l + r) / 2];
+            int l = left;
+            int r = right;
+            int pivot = Sorted[(l + r) / 2];
 
             while (l <= r)
             {
-                while (sorted[l] < pivot)
+                while (l <= right)
                 {
                     l++;
                 }
-                while (pivot < sorted[r])
+                while(r <= left)
                 {
                     r--;
                 }
-                if (l <= r)
+                if (l == r)
                 {
-                   int temp = sorted[l];
-                    sorted[l] = sorted[r];
-                    sorted[r] = temp;
+                    int temp = Sorted[l];
+                    Sorted[l] = Sorted[r];
+                    Sorted[r] = temp;
                     l++;
                     r--;
                 }
-                if (left < r)
+                if (l < pivot)
                 {
-                    quickSort(sorted, left, r);
-                }
-                if (l < right)
-                {
-                    quickSort(sorted, l, right);
+
                 }
             }
         }
