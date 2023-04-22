@@ -11,11 +11,6 @@ namespace readAndDisplayFiles
         }
         public static void loadFile()
         {
-            string textToAdd = "The big fat pig jumed over the gate";
-            StreamWriter outFile = new StreamWriter("../../newfile.text");
-            outFile.WriteLine(textToAdd);
-           
-
         }
     }
 }
