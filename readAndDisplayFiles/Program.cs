@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace readAndDisplayFiles
 {
@@ -6,7 +7,13 @@ namespace readAndDisplayFiles
     {
         static void Main(string[] args)
         {
+            loadFile();
+        }
+        public static void loadFile()
+        {
+            string textToAdd = "The big fat pig jumed over the gate";
             
+
         }
     }
 }
