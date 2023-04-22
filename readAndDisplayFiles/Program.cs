@@ -9,8 +9,11 @@ namespace readAndDisplayFiles
         {
             loadFile();
         }
-        public static void loadFile()
+        
+        private static void loadFile()
         {
+            StreamReader inFile = null;
+            inFile = File.OpenText("")
         }
     }
 }
