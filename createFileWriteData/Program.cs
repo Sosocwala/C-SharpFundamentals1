@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+using System.IO;
 
 namespace createFileWriteData
 {
@@ -6,6 +8,9 @@ namespace createFileWriteData
     {
         static void Main(string[] args)
         {
+            string textToAdd = "";
+            StreamReader outfile = new StreamReader("../../NewFile.text");
+            outfile.WriteLine(textToAdd);
             
         }
     }
