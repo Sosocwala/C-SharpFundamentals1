@@ -62,7 +62,7 @@ namespace theQuickSortAlgorithm
                 {
                     r--;
                 }
-                if (l == r)
+                if (l <= r)
                 {
                     int temp = sortedList[l];
                     sortedList[l] = sortedList[r];
@@ -70,9 +70,13 @@ namespace theQuickSortAlgorithm
                     l++;
                     r--;
                 }
-                if (l < pivot)
+                if (left < r)
                 {
-
+                    quickSort(sortedList, left, r);
+                }
+                if (l < right)
+                {
+                    quickSort(sortedList, l, right);
                 }
             }
         }
