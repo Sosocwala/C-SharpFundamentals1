@@ -46,27 +46,27 @@ namespace theQuickSortAlgorithm
             }
             Console.WriteLine(Environment.NewLine + Environment.NewLine);       
         }
-        public static void quickSort(int[] Sorted, int left, int right)
+        public static void quickSort(int[] sortedList, int left, int right)
         {
             int l = left;
             int r = right;
-            int pivot = Sorted[(l + r) / 2];
+            int pivot = sortedList[(l + r) / 2];
 
             while (l <= r)
             {
-                while (l <= right)
+                while (sortedList[l] < pivot)
                 {
                     l++;
                 }
-                while(r <= left)
+                while(pivot < sortedList[r])
                 {
                     r--;
                 }
                 if (l == r)
                 {
-                    int temp = Sorted[l];
-                    Sorted[l] = Sorted[r];
-                    Sorted[r] = temp;
+                    int temp = sortedList[l];
+                    sortedList[l] = sortedList[r];
+                    sortedList[r] = temp;
                     l++;
                     r--;
                 }
