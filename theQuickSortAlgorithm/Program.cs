@@ -6,7 +6,7 @@ namespace theQuickSortAlgorithm
     {
         static void Main(string[] args)
         {
-            int[] Sorted = new int[100];
+            int[] randomList = new int[100];
             byte x = 0;
             Random random = new Random();
             bool addToArray = true;
@@ -17,34 +17,34 @@ namespace theQuickSortAlgorithm
                 addToArray = true;
                 for (int z = 0; z < x; z++)
                 {
-                    if (Sorted[z] == randomNums)
+                    if (randomList[z] == randomNums)
                     {
                         addToArray = false;
-                        break;
+                            break;
                     }
                 }
                 if (addToArray == true)
                 {
-                    Sorted[x] = randomNums;
+                    randomList[x] = randomNums;
                     x++;
                 }
-
             }
-            Console.WriteLine(Environment.NewLine + "Unsorted List : " + Environment.NewLine);
-            foreach (int i in Sorted)
+            Console.WriteLine(Environment.NewLine + "UnSorted List : " + Environment.NewLine);
+            foreach (int i in randomList)
             {
                 Console.Write("{0} ", i);
             }
-            Console.WriteLine(Environment.NewLine + Environment.NewLine + "Pess ENTER");
+            Console.WriteLine(Environment.NewLine + Environment.NewLine + "Press ENTER");
             Console.ReadLine();
 
-            quickSort(Sorted, 0, Sorted.Length - 1);
-            Console.WriteLine("Sorted List : " + Environment.NewLine);
-            foreach (int m in Sorted)
+            quickSort(randomList, 0, randomList.Length - 1);
+            Console.WriteLine("Sorted List: " + Environment.NewLine + Environment.NewLine);
+            foreach (int k in randomList)
             {
-                Console.Write("{0} ", m);
+                Console.Write("{0} ", k);
             }
-            Console.WriteLine(Environment.NewLine + Environment.NewLine);       
+            Console.WriteLine(Environment.NewLine + Environment.NewLine);
+
         }
         public static void quickSort(int[] sortedList, int left, int right)
         {
@@ -52,17 +52,17 @@ namespace theQuickSortAlgorithm
             int r = right;
             int pivot = sortedList[(l + r) / 2];
 
-            while (l <= r)
+            while (l <= r) //loop l until is equal to r
             {
-                while (sortedList[l] < pivot)
+                while (sortedList[l] < pivot) //move the l up one 
                 {
                     l++;
                 }
-                while(pivot < sortedList[r])
+                while (pivot < sortedList[r]) //move the r down one
                 {
                     r--;
                 }
-                if (l <= r)
+                if (l <= r) //swaping numbers
                 {
                     int temp = sortedList[l];
                     sortedList[l] = sortedList[r];
@@ -72,7 +72,7 @@ namespace theQuickSortAlgorithm
                 }
                 if (left < r)
                 {
-                    quickSort(sortedList, left, r);
+                    quickSort(sortedList, left, r); // call quicksort, Recursion
                 }
                 if (l < right)
                 {
