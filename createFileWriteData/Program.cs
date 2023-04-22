@@ -11,6 +11,7 @@ namespace createFileWriteData
             string textToAdd = "";
             StreamReader outfile = new StreamReader("../../NewFile.text");
             outfile.WriteLine(textToAdd);
+            outfile.Close;
             
         }
     }
