@@ -10,6 +10,7 @@ namespace createFileWriteData
         {
             string textToAdd = "The big fat pig jumped in the mud";
             StreamReader outfile = new StreamReader("../../NewFIle.text");
+            outfile.WriteLine(textToAdd);
         }
         
 
