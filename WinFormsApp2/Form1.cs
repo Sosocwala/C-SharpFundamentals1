@@ -18,5 +18,9 @@ namespace WinFormsApp2
             textBox1.Text = "Welcome to my App";
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
