@@ -59,9 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "randomListOfNumbers", "rand
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theQuickSortAlgorithm", "theQuickSortAlgorithm\theQuickSortAlgorithm.csproj", "{7F5EF7BE-CE57-4382-97B3-C07FA9C0E086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "readAndDisplayFiles", "readAndDisplayFiles\readAndDisplayFiles.csproj", "{54B7DA1D-30F9-48CE-A01D-47FEFEA9F3AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "readAndDisplayFiles", "readAndDisplayFiles\readAndDisplayFiles.csproj", "{54B7DA1D-30F9-48CE-A01D-47FEFEA9F3AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "createFileWriteData", "createFileWriteData\createFileWriteData.csproj", "{54A58ED9-6B6E-4EEA-9AB7-142326DC049D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "createFileWriteData", "createFileWriteData\createFileWriteData.csproj", "{54A58ED9-6B6E-4EEA-9AB7-142326DC049D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp2", "WinFormsApp2\WinFormsApp2.csproj", "{44CA903F-74CB-4D75-83B8-AE2780C11FCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -185,6 +187,10 @@ Global
 		{54A58ED9-6B6E-4EEA-9AB7-142326DC049D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54A58ED9-6B6E-4EEA-9AB7-142326DC049D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54A58ED9-6B6E-4EEA-9AB7-142326DC049D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44CA903F-74CB-4D75-83B8-AE2780C11FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44CA903F-74CB-4D75-83B8-AE2780C11FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44CA903F-74CB-4D75-83B8-AE2780C11FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44CA903F-74CB-4D75-83B8-AE2780C11FCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

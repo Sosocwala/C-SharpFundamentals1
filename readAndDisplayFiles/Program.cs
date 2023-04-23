@@ -13,8 +13,8 @@ namespace readAndDisplayFiles
         private static void loadFile()
         {
             StreamReader inFile = null;
-            inFile = File.OpenText("../../info.text");
-            Console.WriteLine(inFile.ReadToEnd());
+            inFile = File.OpenText("../../info.text"); 
+            Console.WriteLine(inFile.ReadToEnd());  
         }
     }
 }
