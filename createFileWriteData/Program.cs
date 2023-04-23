@@ -9,6 +9,10 @@ namespace createFileWriteData
         static void Main(string[] args)
         {
             string textToAdd = "The big fat pig jumped in the mud";
-        }StreamReader outfile = new StreamReader()
+            StreamReader outfile = new StreamReader("../../NewFIle.text");
+        }
+        
+
+
     }
 }
