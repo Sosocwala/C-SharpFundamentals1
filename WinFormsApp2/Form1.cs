@@ -15,12 +15,13 @@ namespace WinFormsApp2
         public Form1()
         {
             InitializeComponent();
-            textBox1.Text = "Welcome to my App";
+            
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            string input = textBox1.Text;
+            textBox2.Text = input;
         }
     }
 }
