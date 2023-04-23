@@ -8,7 +8,7 @@ namespace createFileWriteData
     {
         static void Main(string[] args)
         {
-            string input = "The big fat pig jumped in the mud";
-           
+            string textToAdd = "The big fat pig jumped in the mud";
+        }
     }
 }
