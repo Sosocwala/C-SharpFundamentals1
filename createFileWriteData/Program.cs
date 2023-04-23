@@ -8,11 +8,7 @@ namespace createFileWriteData
     {
         static void Main(string[] args)
         {
-            string textToAdd = "";
-            StreamReader outfile = new StreamReader("../../NewFile.text");
-            outfile.WriteLine(textToAdd);
-            outfile.Close;
-            
-        }
+            string input = "The big fat pig jumped in the mud";
+           
     }
 }
