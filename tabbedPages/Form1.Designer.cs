@@ -84,9 +84,9 @@ namespace tabbedPages
             this.tabPage4.Location = new System.Drawing.Point(4, 24);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(554, 325);
+            this.tabPage4.Size = new System.Drawing.Size(554, 412);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.Text = "My Tab 4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // Form1
