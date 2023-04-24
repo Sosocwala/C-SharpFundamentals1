@@ -35,9 +35,9 @@ namespace SavingFiles
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(1, 2);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 12);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(585, 407);
+            this.richTextBox1.Size = new System.Drawing.Size(559, 388);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
