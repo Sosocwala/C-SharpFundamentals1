@@ -16,7 +16,7 @@ namespace tabbedPages
         {
             InitializeComponent();
             tabControl1.SelectTab("tabPage2"); // selecting a Tab
-            tabControl1.SelectedIndex = 3;
+            tabControl1.SelectedIndex = 3; // another way of selecting Tabs
         }
 
     }
