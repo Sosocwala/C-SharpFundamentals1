@@ -63,7 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "readAndDisplayFiles", "read
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "createFileWriteData", "createFileWriteData\createFileWriteData.csproj", "{54A58ED9-6B6E-4EEA-9AB7-142326DC049D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp2", "WinFormsApp2\WinFormsApp2.csproj", "{44CA903F-74CB-4D75-83B8-AE2780C11FCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp2", "WinFormsApp2\WinFormsApp2.csproj", "{44CA903F-74CB-4D75-83B8-AE2780C11FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tabbedPages", "tabbedPages\tabbedPages.csproj", "{270BFCA5-4460-4C04-86E3-B27919E6CCEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +193,10 @@ Global
 		{44CA903F-74CB-4D75-83B8-AE2780C11FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44CA903F-74CB-4D75-83B8-AE2780C11FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44CA903F-74CB-4D75-83B8-AE2780C11FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270BFCA5-4460-4C04-86E3-B27919E6CCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270BFCA5-4460-4C04-86E3-B27919E6CCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270BFCA5-4460-4C04-86E3-B27919E6CCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270BFCA5-4460-4C04-86E3-B27919E6CCEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
