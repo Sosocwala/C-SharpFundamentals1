@@ -17,5 +17,9 @@ namespace SavingFiles
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.ShowDialog();
+        }
     }
 }
