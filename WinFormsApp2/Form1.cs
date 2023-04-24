@@ -22,6 +22,7 @@ namespace WinFormsApp2
         {
             string input = textBox1.Text;
             textBox2.Text = input;
+
         }
     }
 }
