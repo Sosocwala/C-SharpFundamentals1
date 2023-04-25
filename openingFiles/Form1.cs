@@ -27,7 +27,10 @@ namespace openingFiles
         {
             int size = -1;
             DialogResult result = openFileDialog1.ShowDialog();
-            
+            if (result == DialogResult.OK)
+            {
+                
+            }
         }
     }
 }
