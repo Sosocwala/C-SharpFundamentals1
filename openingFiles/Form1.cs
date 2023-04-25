@@ -30,8 +30,8 @@ namespace openingFiles
             if (result == DialogResult.OK)
             {
                 string file = openFileDialog1.FileName;
-               File.ReadAllText(file);
-                }
+                try
+                
             }
         }
     }
