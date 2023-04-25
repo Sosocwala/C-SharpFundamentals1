@@ -41,6 +41,7 @@ namespace SavingFiles
             this.richTextBox1.Size = new System.Drawing.Size(559, 388);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // button1
             // 
@@ -51,6 +52,10 @@ namespace SavingFiles
             this.button1.Text = "Save...";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.DefaultExt = "txt";
             // 
             // Form1
             // 

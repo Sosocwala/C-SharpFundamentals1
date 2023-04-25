@@ -19,5 +19,14 @@ namespace tabbedPages
             tabControl1.SelectedIndex = 3; // another way of selecting Tabs
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            c
+        }
+
+        private void tabPage4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
