@@ -31,7 +31,9 @@ namespace openingFiles
             {
                 string file = openFileDialog1.FileName;
                 try
-                
+                {
+                    string text = File.ReadAllText(file);
+                }
             }
         }
     }
