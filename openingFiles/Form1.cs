@@ -34,6 +34,10 @@ namespace openingFiles
                 {
                     string text = File.ReadAllText(file);
                     size = text.Length;
+                    textBox1.Text = text + "Completed size: " + size + "bytes";
+                }
+                catch (IOException)
+                {
 
                 }
             }
