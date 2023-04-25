@@ -71,6 +71,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SavingFiles", "SavingFiles\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openingFiles", "openingFiles\openingFiles.csproj", "{C57AA1E0-7082-4A89-84C6-6446F374A45C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dropDownMenu", "dropDownMenu\dropDownMenu.csproj", "{A395EFA4-C640-4651-B2C2-BF54A30830AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,10 @@ Global
 		{C57AA1E0-7082-4A89-84C6-6446F374A45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C57AA1E0-7082-4A89-84C6-6446F374A45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C57AA1E0-7082-4A89-84C6-6446F374A45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A395EFA4-C640-4651-B2C2-BF54A30830AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A395EFA4-C640-4651-B2C2-BF54A30830AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A395EFA4-C640-4651-B2C2-BF54A30830AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A395EFA4-C640-4651-B2C2-BF54A30830AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
