@@ -17,5 +17,9 @@ namespace dropDownMenu
             InitializeComponent();
         }
 
+        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
