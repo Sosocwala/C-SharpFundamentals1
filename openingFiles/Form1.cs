@@ -29,7 +29,9 @@ namespace openingFiles
             DialogResult result = openFileDialog1.ShowDialog();
             if (result == DialogResult.OK)
             {
-                
+                string file = openFileDialog1.FileName;
+               File.ReadAllText(file);
+                }
             }
         }
     }
