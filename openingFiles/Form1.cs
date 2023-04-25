@@ -33,6 +33,8 @@ namespace openingFiles
                 try
                 {
                     string text = File.ReadAllText(file);
+                    size = text.Length;
+
                 }
             }
         }
