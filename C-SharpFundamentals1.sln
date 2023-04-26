@@ -75,7 +75,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dropDownMenu", "dropDownMen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windowsFormBasics", "windowsFormBasics", "{BBA6EF3E-959B-4926-B7C1-C8F177E7ED4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDI_App", "MDI_App\MDI_App.csproj", "{97C16AE7-9317-4691-B46C-480E4D2DB1DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDI_App", "MDI_App\MDI_App.csproj", "{97C16AE7-9317-4691-B46C-480E4D2DB1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbar", "Toolbar\Toolbar.csproj", "{23A85B0E-245E-4618-B27B-6E343EFF7230}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,6 +225,10 @@ Global
 		{97C16AE7-9317-4691-B46C-480E4D2DB1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97C16AE7-9317-4691-B46C-480E4D2DB1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97C16AE7-9317-4691-B46C-480E4D2DB1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A85B0E-245E-4618-B27B-6E343EFF7230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A85B0E-245E-4618-B27B-6E343EFF7230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A85B0E-245E-4618-B27B-6E343EFF7230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A85B0E-245E-4618-B27B-6E343EFF7230}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
