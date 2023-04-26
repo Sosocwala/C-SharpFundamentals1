@@ -17,5 +17,10 @@ namespace MDI_App
             InitializeComponent();
         }
 
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 newdoc = new Form2();
+
+        }
     }
 }
