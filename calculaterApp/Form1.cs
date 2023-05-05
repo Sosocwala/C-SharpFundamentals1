@@ -19,7 +19,13 @@ namespace calculaterApp
 
         private void button_Click(object sender, EventArgs e)
         {
+            bool decimalFlag = false;
+            bool totalFlag = false; 
 
+            Button b = (Button)sender;
+            string inputTxt = b.Text;
+            
+            
         }
 
     }
