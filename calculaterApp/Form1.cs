@@ -23,7 +23,7 @@ namespace calculaterApp
             bool totalFlag = false; 
 
             Button b = (Button)sender;
-            string inputTxt = 
+            string inputTxt = b.Text;
             
             
         }
