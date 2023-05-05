@@ -333,7 +333,7 @@ namespace calculaterApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(302, 400);
+            this.ClientSize = new System.Drawing.Size(297, 400);
             this.Controls.Add(this.ButtonLbracket);
             this.Controls.Add(this.ButtonRbracket);
             this.Controls.Add(this.buttonEqual);
