@@ -76,7 +76,7 @@ namespace theQuickSortAlgorithm
                 }
                 if (l < right)
                 {
-                    quickSort(sortedList, lright), ;
+                    quickSort(sortedList, l,  ;
                 }
             }
         }
