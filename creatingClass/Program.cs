@@ -9,7 +9,7 @@ namespace creatingClass
             Fruit fruit = new Fruit("Banana", .23, 12);
             string newFruit = fruit.getFruit();
             double total = fruit.getCost();
-            Console.WriteLine("kind of fruit : {0} ",;
+            Console.WriteLine("kind of fruit : {0} ", newFruit);
             Console.WriteLine(total);
         }
         class Fruit
