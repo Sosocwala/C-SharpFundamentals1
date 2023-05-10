@@ -25,7 +25,7 @@ namespace creatingClass
             }
             public double getCost()
             {
-                return cost *;
+                return cost * amount;
             }
         }
 
