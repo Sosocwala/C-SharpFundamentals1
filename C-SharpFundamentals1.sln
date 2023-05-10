@@ -83,7 +83,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculaterApp", "calculater
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "introToObjectOrientedProgramming", "introToObjectOrientedProgramming", "{14AE09A5-2F98-4046-9F92-757F979D5A80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "creatingClass", "creatingClass\creatingClass.csproj", "{A5E8ACF9-799F-4F17-B677-C504D78CFF0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "creatingClass", "creatingClass\creatingClass.csproj", "{A5E8ACF9-799F-4F17-B677-C504D78CFF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectProperties", "ObjectProperties\ObjectProperties.csproj", "{43150AEC-DCB4-4451-8309-A121F184AE51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +245,10 @@ Global
 		{A5E8ACF9-799F-4F17-B677-C504D78CFF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5E8ACF9-799F-4F17-B677-C504D78CFF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5E8ACF9-799F-4F17-B677-C504D78CFF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43150AEC-DCB4-4451-8309-A121F184AE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43150AEC-DCB4-4451-8309-A121F184AE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43150AEC-DCB4-4451-8309-A121F184AE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43150AEC-DCB4-4451-8309-A121F184AE51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -262,6 +268,7 @@ Global
 		{97C16AE7-9317-4691-B46C-480E4D2DB1DF} = {BBA6EF3E-959B-4926-B7C1-C8F177E7ED4D}
 		{327685B0-447E-40E7-B18D-35E5B67904E2} = {BBA6EF3E-959B-4926-B7C1-C8F177E7ED4D}
 		{A5E8ACF9-799F-4F17-B677-C504D78CFF0D} = {14AE09A5-2F98-4046-9F92-757F979D5A80}
+		{43150AEC-DCB4-4451-8309-A121F184AE51} = {14AE09A5-2F98-4046-9F92-757F979D5A80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBC46383-58E4-4BEC-8485-7A3CC744C335}

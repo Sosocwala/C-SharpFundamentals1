@@ -28,7 +28,7 @@ namespace creatingClass
             }
             public string getFruit()
             {
-                return kind + "The cost is: " + cost;
+                return kind + " The cost for each is : " + cost;
             }
             public double getCost()
             {
