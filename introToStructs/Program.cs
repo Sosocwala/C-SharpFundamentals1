@@ -6,7 +6,7 @@ namespace introToStructs
     {
         static void Main(string[] args)
         {
-            C;
+            Console.WriteLine("Hello World!");
         }
     }
 }
