@@ -11,7 +11,7 @@ namespace introToEvents
             myFruit.Kind = "Apple";
             myFruit.Kind = "Banana";
             myFruit.Kind = "Orange";
-            myFruit.Kind = "Cherry";
+            myFruit.Kind = "Cherry"; 
         }
         static void newKind(object newk, EventArgs e)
         {

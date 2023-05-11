@@ -10,7 +10,7 @@ namespace ObjectProperties
             myFruit.Kind = "Banana";
             myFruit.Cost = 0.5;
             string newFruit = myFruit.getFruit();
-            double totalCost = myFruit.getCost();
+            double totalCost = myFruit.getCost(); 
             Console.WriteLine("The fruit kind is: {0}", newFruit);
             Console.WriteLine("Here is a price for a Dozen: {0:C}", totalCost);
 
