@@ -91,21 +91,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "accessingObjectsWithThisKey
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "introToEvents", "introToEvents\introToEvents.csproj", "{3DCB3563-5BE1-4E09-BFC1-A2A63A4E15F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToStaticMembers", "introToStaticMembers\introToStaticMembers.csproj", "{8BE5803D-14FE-4854-9C4B-9B34BB290FF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "introToStaticMembers", "introToStaticMembers\introToStaticMembers.csproj", "{8BE5803D-14FE-4854-9C4B-9B34BB290FF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToStructs", "introToStructs\introToStructs.csproj", "{8966A660-688A-4A35-BD3F-9D22C1A7B52D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "introToStructs", "introToStructs\introToStructs.csproj", "{8966A660-688A-4A35-BD3F-9D22C1A7B52D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstractAndSealedClassess", "abstractAndSealedClassess\abstractAndSealedClassess.csproj", "{6EF5FD79-0199-4CBD-AFA6-4FE03CDD5C4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritanceInObjectOrientedProgramming", "inheritanceInObjectOrientedProgramming\inheritanceInObjectOrientedProgramming.csproj", "{3811B5ED-2CA1-4B82-8900-2C03DE9C07F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inheritanceInObjectOrientedProgramming", "inheritanceInObjectOrientedProgramming\inheritanceInObjectOrientedProgramming.csproj", "{3811B5ED-2CA1-4B82-8900-2C03DE9C07F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baseAndDerivedClass", "baseAndDerivedClass\baseAndDerivedClass.csproj", "{CD0FAF1C-B09A-47F9-AF4B-AE38644B2B5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "baseAndDerivedClass", "baseAndDerivedClass\baseAndDerivedClass.csproj", "{CD0FAF1C-B09A-47F9-AF4B-AE38644B2B5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "castingBetweenTypes", "castingBetwrrnTypes\castingBetweenTypes.csproj", "{AE561564-C222-4266-8602-5D9CD908CF79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "castingBetweenTypes", "castingBetwrrnTypes\castingBetweenTypes.csproj", "{AE561564-C222-4266-8602-5D9CD908CF79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usingAsAndIs", "usingAsAndIs\usingAsAndIs.csproj", "{76D19ED7-ED14-4467-9882-2EAE02D40839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "usingAsAndIs", "usingAsAndIs\usingAsAndIs.csproj", "{76D19ED7-ED14-4467-9882-2EAE02D40839}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToPolymorphism", "introToPolymorphism\introToPolymorphism.csproj", "{A7FF454A-9F42-46AE-BC56-19D34991DEE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "introToPolymorphism", "introToPolymorphism\introToPolymorphism.csproj", "{A7FF454A-9F42-46AE-BC56-19D34991DEE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "usingOverrideAndNew", "usingOverrideAndNew\usingOverrideAndNew.csproj", "{11DDEC98-4637-417A-B7FE-CBD039784B58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "introToInterfaces", "introToInterfaces\introToInterfaces.csproj", "{1E41F7D7-4034-4CAF-8516-A882A595F9BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -309,6 +313,14 @@ Global
 		{A7FF454A-9F42-46AE-BC56-19D34991DEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7FF454A-9F42-46AE-BC56-19D34991DEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7FF454A-9F42-46AE-BC56-19D34991DEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DDEC98-4637-417A-B7FE-CBD039784B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DDEC98-4637-417A-B7FE-CBD039784B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DDEC98-4637-417A-B7FE-CBD039784B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DDEC98-4637-417A-B7FE-CBD039784B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E41F7D7-4034-4CAF-8516-A882A595F9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E41F7D7-4034-4CAF-8516-A882A595F9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E41F7D7-4034-4CAF-8516-A882A595F9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E41F7D7-4034-4CAF-8516-A882A595F9BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -339,6 +351,8 @@ Global
 		{AE561564-C222-4266-8602-5D9CD908CF79} = {14AE09A5-2F98-4046-9F92-757F979D5A80}
 		{76D19ED7-ED14-4467-9882-2EAE02D40839} = {14AE09A5-2F98-4046-9F92-757F979D5A80}
 		{A7FF454A-9F42-46AE-BC56-19D34991DEE7} = {14AE09A5-2F98-4046-9F92-757F979D5A80}
+		{11DDEC98-4637-417A-B7FE-CBD039784B58} = {14AE09A5-2F98-4046-9F92-757F979D5A80}
+		{1E41F7D7-4034-4CAF-8516-A882A595F9BF} = {14AE09A5-2F98-4046-9F92-757F979D5A80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBC46383-58E4-4BEC-8485-7A3CC744C335}
