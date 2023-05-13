@@ -21,7 +21,8 @@ namespace introToInterfaces
             else
             {
                 results = "less expensive than the";
-            });
+            }
+            Console.WriteLine(
         }
         class Fruit
         {
