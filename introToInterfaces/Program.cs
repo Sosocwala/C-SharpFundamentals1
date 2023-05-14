@@ -22,7 +22,7 @@ namespace introToInterfaces
             {
                 results = "less expensive than the";
             }
-            Console.WriteLine("The Granny Smith is {0} Novel", results);
+            Console.WriteLine("The Granny Smith is {0} Novel",);
         }
         class Fruit
         {
