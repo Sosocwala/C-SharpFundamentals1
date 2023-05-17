@@ -22,6 +22,7 @@ namespace baseAndDerivedClass
         {
             public string Kind { get; protected set; }
             public double Cost { get; protected set; }
+            //public double Amount { get; protected set; }
         }
         class Mango : Fruit // derived class
         {
@@ -38,6 +39,11 @@ namespace baseAndDerivedClass
             {
                 return Cost * 12;
             }
+            // public double getAmount()
+            //{
+           //     return Amount;
+           //}
+
         }
         class Apple : Fruit // derived Class
         {
