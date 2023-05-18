@@ -54,7 +54,7 @@ namespace theQuickSortAlgorithm
 
             while (l <= r) //loop l until is equal to r
             {
-                while (sortedList[l] < ) //move the l up one 
+                while (sortedList[l] < pivot) //move the l up one 
                 {
                     l++;
                 }
