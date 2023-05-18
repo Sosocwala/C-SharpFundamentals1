@@ -50,11 +50,11 @@ namespace theQuickSortAlgorithm
         {
             int l = left;
             int r = right;
-            int pivot = sortedList[(l + r) / 2];
+            int pivot = sortedList[(l + r) / 2];            
 
             while (l <= r) //loop l until is equal to r
             {
-                while (sortedList[l] < pivot) //move the l up one 
+                while (sortedList[l] < ) //move the l up one 
                 {
                     l++;
                 }
