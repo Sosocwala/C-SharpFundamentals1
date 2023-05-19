@@ -21,7 +21,7 @@ namespace WinFormsApp2
         private void button1_Click(object sender, EventArgs e)
         {
             string input = textBox1.Text;
-            textBox2.Text = 
+            textBox2.Text = input;
 
         }
     }

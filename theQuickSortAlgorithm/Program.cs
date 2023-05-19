@@ -17,7 +17,7 @@ namespace theQuickSortAlgorithm
                 addToArray = true;
                 for (int z = 0; z < x; z++)
                 {
-                    if (randomList[z] == )
+                    if (randomList[z] == randomNums)
                     {
                         addToArray = false;
                             break;
