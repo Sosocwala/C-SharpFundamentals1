@@ -25,8 +25,7 @@ namespace theQuickSortAlgorithm
                 }
                 if (addToArray == true)
                 {
-                    randomList[x] = randomNums;
-                    x++;
+                    randomList[x] = randomNums
                 }
             }
             Console.WriteLine(Environment.NewLine + "UnSorted List : " + Environment.NewLine);
