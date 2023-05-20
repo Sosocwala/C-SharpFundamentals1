@@ -30,7 +30,7 @@ namespace calculaterApp
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string input = textBox1.Text;
+             string input = textBox1.Text;
             input = button10.Text;
             button10.Show();
         }
