@@ -18,7 +18,7 @@
             }
             public double getAmount()
             {
-                return amount * price
+                return amount * price;
             }
 
         }
