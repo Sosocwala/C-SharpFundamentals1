@@ -24,7 +24,7 @@ namespace theQuickSortAlgorithm
                     }
                 }
                 if (addToArray == true)
-                {
+                
                     randomList[x] = randomNums
                     x++;
                 }
