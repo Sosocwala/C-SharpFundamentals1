@@ -32,7 +32,7 @@ namespace theQuickSortAlgorithm
             Console.WriteLine(Environment.NewLine + "UnSorted List : " + Environment.NewLine);
             foreach (int i in randomList)
             {
-                Console.Write("{0} ", i);
+                Console.Write("{0}", i);
             }
             Console.WriteLine(Environment.NewLine + Environment.NewLine + "Press ENTER");
             Console.ReadLine();
