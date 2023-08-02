@@ -28,8 +28,8 @@ namespace abstractAndSealedClassess
                 Cost = c;
             }
             public string getFrurit()
-            { 
-                return Kind
+            {
+                return Kind;
             } 
             sealed public override double getCost()
             {
